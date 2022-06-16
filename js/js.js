@@ -43,6 +43,21 @@ prevBtn.addEventListener("click",()=>{
     slideIcons[slideNumber].classList.add("active");
 });
 
+setInterval(function(){
+    
+    slides[slideNumber].classList.remove("active");
+    slideIcons[slideNumber].classList.remove("active");
+    
+    slideNumber++;
+    if(slideNumber>(numberOfSlides-1)){
+        slideNumber = 0;
+    }
+        
+    slides[slideNumber].classList.add("active");
+    slideIcons[slideNumber].classList.add("active");
+
+},5000)
+
 document.querySelectorAll(".slide-icon").forEach((item, index) => { // here
     item.addEventListener('click', arrow => {
         slides[slideNumber].classList.remove("active");
