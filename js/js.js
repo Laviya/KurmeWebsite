@@ -14,6 +14,7 @@ const slideIcons = document.querySelectorAll(".slide-icon");
 const numberOfSlides = slides.length;
 var slideNumber = 0;
 // image
+console.log(numberOfSlides);
 
 nextBtn.addEventListener("click",()=>{
 
@@ -23,6 +24,19 @@ nextBtn.addEventListener("click",()=>{
     slideNumber++;
     if(slideNumber>(numberOfSlides-1)){
         slideNumber = 0;
+    }
+    
+    slides[slideNumber].classList.add("active");
+    slideIcons[slideNumber].classList.add("active");
+});
+prevBtn.addEventListener("click",()=>{
+
+    slides[slideNumber].classList.remove("active");
+    slideIcons[slideNumber].classList.remove("active");
+
+    slideNumber--;
+    if(slideNumber<0){
+        slideNumber = (numberOfSlides-1);
     }
     
     slides[slideNumber].classList.add("active");
@@ -76,14 +90,6 @@ for(var i = 0; i< decreaseBtn.length; i++){
         }
     })
 }
-
-// console.log(decreaseBtn)
-// console.log(toAddBtn)
-
-// toAddBtn.addEventListener("click", function(){
-//     i+=1;
-//     productAddInputArea.innerHTML=i;
-// });
 
 const counters = document.querySelectorAll('.circle-value');
 console.log(counters);

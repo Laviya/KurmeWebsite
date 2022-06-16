@@ -105,11 +105,12 @@
     .footer-mobile-social li:nth-child(3){
         padding-left: 4rem;
     }
-    /* erhoya flex kullanarak social imglerini space-btvn nasıl yapabilirsin sor */
+    
 
     /* footer-mobile-info */
     .footer-mobile-info li{
         padding-bottom: 1rem;
+
     }
     .footer-mobile-info li:nth-child(6){
         padding-bottom: 0;
