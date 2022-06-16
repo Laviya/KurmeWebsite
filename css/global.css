@@ -1,0 +1,73 @@
+/* fonts */
+@font-face {
+    font-family: 'MuseoSansRounded';
+    src: url('../fonts/MuseoSansRounded300.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansRounded';
+    src:  url('../fonts/MuseoSansRounded700.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSansRounded';
+    src: url('../fonts/MuseoSansRounded900.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+/* fonts-end */
+/* colors */
+
+.bg-orange{
+    background-color: #F26E21;
+}
+.bg-white{
+    background-color: white;
+}
+.color-w{
+    color: white;
+}
+.color-b{
+    color: black;
+}
+
+/* container */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.mr-1{
+    margin-right: 3px;
+}
+.mt-5{
+    margin-top: 40px;
+}
+.mr-3{
+    margin-right: 10px;
+}
+.ml-3{
+    margin-left: 25px;
+}
+.mb-4{
+    margin-bottom: 20px;
+}
+/* değiştirrrr */
+.mb-8{
+    margin-bottom: 120px;
+}
+
+.pt-2{
+    padding-top: 10px;
+}
+.pt-4{
+    padding-top: 40px;
+}
+.pt-5{
+    padding-top: 0.8rem;
+}
+.pt-6{
+    margin-top: 60px;
+}

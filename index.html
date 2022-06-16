@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kurme</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <!-- tablet -->
+    <link rel="stylesheet" href="css/tablet.css">
+    <!-- middle -->
+    <link rel="stylesheet" href="css/middle.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+
+    <div class="bg-orange" id="ship-w">
+        <div id="shipping" class="color-w">80 TL ve üzeri alışverişlerde <b class="text-indent">KARGO BEDAVA!</b></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container pt-5">
+            <div class="logo">
+                <a href=""><img src="images/logo.jpg" alt=""></a>
+            </div>
+
+            <!-- Icons -->
+            <ul class="icon-mobile">
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+
+            <!-- toggle button -->
+            <a class="toggle-button" href="#">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <!-- navbar links -->
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#">Ürünler</a></li>
+                    <li><a href="#"><i class="fa-solid fa-tags mr-1"></i>İndirimdekiler</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a class="hidden-icon-mobile" href="#"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a class="hidden-icon-mobile" href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <div class="slider">
+        <div class="slide active">
+            <img src="images/slider1.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/slider2.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/slider3.jpeg" alt="">
+        </div>
+        <div class="navigation">
+            <div class="prev-btn"></div>
+            <div class="next-btn"></div>
+        </div>
+        <div class="navigation-visibility">
+            <div class="slide-icon active"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+        </div>
+    </div>
+    <!-- contents -->
+    <div class="contents mt-5">
+        <div class="container">
+            <div class="title-big">
+                <h2>Sağlık Lezzetle Birleşti</h1>
+                    <p class="pt-2">Damak tadınızı lezzetle, vücudunuzu sağlıkla tanıştırmak Kurme’nin işi.</p>
+            </div>
+            <div class="title-button mt-5">
+                <button><a href="#">Lezzeti Keşfet</a></button>
+            </div>
+            <div class="title-middle pt-6">
+                <h3>Şimdi Keşfet</h3>
+                <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et doloremagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            </div>
+            <!-- card -->
+            <div class="card-middle ">
+                <div class="card">
+                    <a href="#">
+                        <div class="filter filter-1"></div>
+                        <img class="card-img" src="images/01card.jpg" alt="">
+
+                        <div class="info">
+                            <h3>Raw Fruit Bars</h3>
+                            <p>Alışverişe Başla <i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <div class="filter filter-2"></div>
+                        <img id="card-img-2" class="card-img" src="images/02card.jpg" alt="">
+
+                        <div class="info">
+                            <h3>Raw Fruit Bites</h3>
+                            <p>Alışverişe Başla <i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <div class="filter filter-3"></div>
+                        <img id="card-img-3" class="card-img" src="images/03card.jpg" alt="">
+
+                        <div class="info">
+                            <h3>Tapas</h3>
+                            <p>Alışverişe Başla <i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Introduct -->
+    <div class="intro">
+        <div class="container">
+            <div class="intro-info">
+                <h3>Sağlığın Sırrı</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            </div>
+            <div class="intro-detail">
+                <div class="intro-card">
+                    <img src="images/glutensiz.png" alt="">
+                    <p>Glutensiz</p>
+                </div>
+
+                <div class="intro-card">
+                    <img src="images/sekerilavesiz.png" alt="">
+                    <p>Şeker <br> İlavesiz</p>
+                </div>
+
+                <div class="intro-card">
+                    <img src="images/vegan.png" alt="">
+                    <p>Vegan</p>
+                </div>
+
+                <div class="intro-card">
+                    <img src="images/katkisiz.png" alt="">
+                    <p>Katkısız & <br>Koruyucusuz</p>
+                </div>
+
+                <div class="intro-card">
+                    <img src="images/yukseklif.png" alt="">
+                    <p>Yüksek Lif <br>Kaynağı</p>
+                </div>
+
+                <div class="intro-card">
+                    <img src="images/laktozsuz.png" alt="">
+                    <p>Laktozsuz</p>
+                </div>
+
+                <div class="intro-card">
+                    <img src="images/transyag.png" alt="">
+                    <p>Trans Yağ <br>İçermez</p>
+                </div>
+
+                <div class="intro-card">
+                    <img src="images/gdo.png" alt="">
+                    <p>GDO <br>İçermez</p>
+                </div>
+            </div>
+
+            <div class="intro-button">
+                <button>
+                    <a href="#">Tüm Ürünler</a>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <!-- Product -->
+    <div class="product">
+        <div class="container">
+            <div class="product-h">
+                <h3>En Çok Satanlar</h3>
+            </div>
+
+            <div class="product-card-area">
+                <!-- product-1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/ChiaD.JPG" alt="">
+                    </div>
+                    <div class="discount-icon">
+                        <div class="discount-icon-1">
+                            %12
+                        </div>
+                        <div class="discount-icon-2">
+                            Yeni
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <p>100 gr / 12 Adet</p>
+                    </div>
+                    <div class="product-name">
+                        <h4>Raw Fruit Bars</h4>
+                        <p>Chia + Almond + Cocoa</p>
+                    </div>
+                    <div class="product-price">
+                        <p>71.40 TL</p>
+                        <p>63.00 TL</p>
+                    </div>
+                    <div class="product-add">
+                        <div class="product-add-input">
+                            <button class="decrease btn">-</button>
+                            <input class="product-add-input-area" type="text" value="0">
+                            <button class="toAdd btn">+</button>
+                        </div>
+                    </div>
+                    <div class="product-add-button">
+                        <button><a href="#">Sepete Ekle</a></button>
+                    </div>
+                </div>
+                <!-- product-2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/tapas.png" alt="">
+                    </div>
+                    <div class="discount-icon">
+                        <div class="discount-icon-1">
+                            %12
+                        </div>
+                        <div class="discount-icon-2">
+                            Yeni
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <p>100 gr / 12 Adet</p>
+                    </div>
+                    <div class="product-name">
+                        <h4>Tapas</h4>
+                        <p>Chia + Almond + Cocoa</p>
+                    </div>
+                    <div class="product-price">
+                        <p>71.40 TL</p>
+                        <p>63.00 TL</p>
+                    </div>
+                    <div class="product-add">
+                        <div class="product-add-input">
+                            <button class="decrease btn">-</button>
+                            <input class="product-add-input-area" type="text" value="0">
+                            <button class="toAdd btn">+</button>
+                        </div>
+                    </div>
+                    <div class="product-add-button">
+                        <button><a href="#">Sepete Ekle</a></button>
+                    </div>
+                </div>
+                <!-- product-3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/peppermnt.png" alt="">
+                    </div>
+                    <div class="discount-icon">
+                        <div class="discount-icon-1">
+                            %12
+                        </div>
+                        <div class="discount-icon-2">
+                            Yeni
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <p>100 gr / 12 Adet</p>
+                    </div>
+                    <div class="product-name">
+                        <h4>Raw Fruit Bites</h4>
+                        <p>Peppermint + Cocoa</p>
+                    </div>
+                    <div class="product-price">
+                        <p>71.40 TL</p>
+                        <p>63.00 TL</p>
+                    </div>
+                    <div class="product-add">
+                        <div class="product-add-input">
+                            <button class="decrease btn">-</button>
+                            <input class="product-add-input-area" type="text" value="0">
+                            <button class="toAdd btn">+</button>
+                        </div>
+                    </div>
+                    <div class="product-add-button">
+                        <button><a href="#">Sepete Ekle</a></button>
+                    </div>
+                </div>
+                <!-- product-4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/figpaste.png" alt="">
+                    </div>
+                    <div class="discount-icon">
+                        <div class="discount-icon-1">
+                            %12
+                        </div>
+                        <div class="discount-icon-2">
+                            Yeni
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <p>100 gr / 12 Adet</p>
+                    </div>
+                    <div class="product-name">
+                        <h4>Tapas</h4>
+                        <p>Figs Paste + Walnuts</p>
+                    </div>
+                    <div class="product-price">
+                        <p>71.40 TL</p>
+                        <p>63.00 TL</p>
+                    </div>
+                    <div class="product-add">
+                        <div class="product-add-input">
+                            <button class="decrease btn">-</button>
+                            <input class="product-add-input-area" type="text" value="0">
+                            <button class="toAdd btn">+</button>
+                        </div>
+                    </div>
+                    <div class="product-add-button">
+                        <button><a href="#">Sepete Ekle</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- information -->
+    <div class="information">
+
+        <div class="information-img">
+
+            <img src="images/indirimbanner.jpg" alt="">
+
+        </div>
+
+        <div class="information-info">
+
+            <div class="information-details">
+                <h3>İlk Siparişinize Özel</h3>
+                <h2>%25 İndirim</h2>
+
+                <button>
+                    <a href="#">Alışverişe Başla</a>
+                </button>
+            </div>
+
+            <div class="discount-item">
+                <p>%</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- customer-info -->
+    <div class="customer-info">
+        <div class="container">
+
+            <div class="customer-card">
+                <img src="images/kargoicon.svg" alt="">
+
+                <div class="customer-write">
+                    <h4>
+                        <span>80 TL ve üzeri</span><br>
+                        Ücretsiz Kargo
+                    </h4>
+                </div>
+            </div>
+
+            <div class="customer-card">
+                <img src="images/iadeicon.svg" alt="">
+
+                <div class="customer-write">
+                    <h4>
+                        <span>Memnuniyet Garantisi</span><br>
+                        10 Gün İçinde İade
+                    </h4>
+                </div>
+            </div>
+
+            <div class="customer-card">
+                <img src="images/destekicon.svg" alt="">
+
+                <div class="customer-write">
+                    <h4>
+                        <span>Hızlı Destek</span><br>
+                        Canlı Müşteri Temsilcisi
+                    </h4>
+                </div>
+            </div>
+
+            <div class="customer-card">
+                <img src="images/guvenliodeme icon.svg" alt="">
+
+                <div class="customer-write">
+                    <h4>
+                        <span>Güvenli Ödeme</span><br>
+                        256Bit SSL Sertifikası
+                    </h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- email -->
+    <div class="email">
+        <div class="container">
+
+            <div class="email-contents">
+                <div class="email-info">
+                    <p>Size özel indirimlerden yararlanmak için</p>
+                </div>
+
+
+                <div class="email-input">
+                    <input type="text" placeholder="E-postanızı yazınız.">
+                    <button>Gönder</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+
+            <div class="footer-left">
+
+                <div class="footer-brand">
+                    <img src="images/transparanlogo.png" alt="">
+                </div>
+
+                <div class="footer-info">
+                    <ul>
+                        <li>
+                            <a href="#">Tüm Ürünler</a>
+                        </li>
+                        <li>
+                            <a href="#">Raw Fruit Bars</a>
+                        </li>
+                        <li>
+                            <a href="#">Raw Fruit Bites</a>
+                        </li>
+                        <li>
+                            <a href="#"> Tapas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-right">
+
+                <div class="footer-top">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/facebook icon.svg" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="images/twitter icon.svg" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="images/instagram icon.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-bottom">
+                    <ul>
+                        <li id="footer-secure">
+                            <img src="images/secure.svg" alt="">
+                            <p>secure 256Bit</p>
+                        </li>
+
+                        <li>
+                            <img src="images/visa.svg" alt="">
+                        </li>
+
+                        <li>
+                            <img src="images/mastercard.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-mobile -->
+    <div class="footer-mobile">
+        <div class="container">
+
+            <div class="footer-mobile-brand">
+                <img src="images/transparanlogo.png" alt="">
+            </div>
+            
+            <div class="footer-mobile-social">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/facebook icon.svg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="images/twitter icon.svg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="images/instagram icon.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-mobile-info">
+                <ul>
+                    <li>
+                        <a href="#">Tüm Ürünler</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Fruity Balls</a>
+                    </li>
+
+                    <li>
+                        <a href="#">3 Portions</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Doypack</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Fruity Balls</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Tapas</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-mobile-secure">
+                <ul>
+                    <li id="footer-mobile-secure">
+                        <img src="images/secure.svg" alt="">
+                        <p>secure 256Bit</p>
+                    </li>
+
+                    <li>
+                        <img src="images/visa.svg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="images/mastercard.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- footer-contract -->
+    <div class="footer-contract">
+        <div class="container">
+            <p>©2021</p>
+
+            <div class="contract">
+                <ul>
+                    <li>
+                        <a href="">Kurme Mesafeli Satış Sözleşmesi •</a><span></span> 
+                    </li>
+    
+                    <li>
+                        <a href="">Gizlilik ve Güvenlik İptal ve İade Şartları •</a>
+                    </li>
+    
+                    <li>
+                        <a href="">Kişisel Verilerin Korunması</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <p> İdeasoft</p>
+        </div>
+    </div>
+
+    <script src="js/js.js"></script>
+
+</body>
+
+</html>
